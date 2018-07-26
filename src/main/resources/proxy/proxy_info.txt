@@ -1,0 +1,8 @@
+Proxy is a structural design pattern that lets you provide a substitute or placeholder
+for another object to control access to it.
+Proxy pattern is used when we need to create a wrapper to cover the main object’s
+complexity from the client.
+
+Current example:
+Internet, which restricts few site access. The proxy first checks the host you are connecting to,
+if it is not part of restricted site list, then it connects to the real internet.

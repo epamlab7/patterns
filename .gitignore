@@ -4,3 +4,4 @@ logs/
 output/
 
 *.iml
+.DS_Store
