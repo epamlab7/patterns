@@ -1,0 +1,7 @@
+
+Iterator pattern is used to provide a standard way to traverse through a group of Objects.
+Iterator pattern is widely used in Java Collection Framework.
+Iterator interface provides methods for traversing through a collection.
+
+Current example:
+Iterator traverse through names with 'J' first letter and ignores others.
