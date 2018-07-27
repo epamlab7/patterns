@@ -1,0 +1,14 @@
+OBSERVER DESIGN PATTERN]
+(One of the behavioral design pattern)
+
+INTENT
+The Observer Pattern defines a one-to-many dependency between a subject
+and any number of observer so that when the subject object changes state,
+all its dependents are notified and updated automatically!
+
+WHEN WOULD WE USE THIS PATTERN?
+- Relationship between subject and observer is one-to-many;
+- The subject does not know exactly how many observer it has;
+- Subject should be able to notify it’s observers without knowing who these observers are.
+
+LOOK EXAMPLE TO KNOW HOW DOES IT WORK IN JAVA?
