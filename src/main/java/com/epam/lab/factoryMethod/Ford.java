@@ -1,4 +1,4 @@
-package com.epam.lab7.factoryMethod;
+package com.epam.lab.factoryMethod;
 
 import org.apache.logging.log4j.LogManager;
 import org.apache.logging.log4j.Logger;
