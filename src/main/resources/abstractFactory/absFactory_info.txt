@@ -1,0 +1,16 @@
+ABSTRACT FACTORY DESIGN PATTERN
+This pattern refers to the kind of generating whose main purpose is to simplify the creation of objects.
+The abstract factory provides an interface for creating families of related or dependent objects without specifying
+their concrete classes.
+An abstract factory can be not only an interface, but an abstract class, and a concrete class.
+In typical application cases, the client code creates a specific implementation of the abstract factory, and then uses
+the universal universal factory interface to create instances of objects that are part of the schema. The client code
+does not know (or does not take into account) exactly which objects it gets from these factories because it uses a
+universal interface for their creation.
+The template delimits the details of the implementation of a plurality of objects from their general use in the code,
+since the creation of an object is carried out using methods provided by the factory interface.
+
+Use pattern in such cases:
+- The system should not depend on the way objects are created;
+- The system works with one of several object families;
+- Objects within the family are interrelated.
