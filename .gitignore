@@ -2,6 +2,10 @@ target/
 logs/
 .idea/
 output/
-
+.classpath
+.project
+.settings/
+*.class
+*.log
 *.iml
 .DS_Store
