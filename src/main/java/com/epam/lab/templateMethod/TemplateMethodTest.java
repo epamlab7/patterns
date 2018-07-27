@@ -1,4 +1,4 @@
-package com.epam.lab7.templateMethod;
+package com.epam.lab.templateMethod;
 
 import java.io.BufferedReader;
 import java.io.IOException;
