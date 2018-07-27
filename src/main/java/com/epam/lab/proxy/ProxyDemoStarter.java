@@ -11,7 +11,7 @@ public class ProxyDemoStarter {
     private static final String PROXY_INFO_FILE_PATH = "src/main/resources/proxy/proxy_info.txt";
     private static final Logger LOG = LogManager.getLogger("com.epam.lab");
 
-    private static void startProxyPattern() throws IOException {
+    public static void startProxyPattern() throws IOException {
         displayProxyDescription();
         Internet internet = new ProxyInternet();
         try{

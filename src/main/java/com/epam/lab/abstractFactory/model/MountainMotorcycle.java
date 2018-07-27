@@ -1,4 +1,4 @@
-package com.epam.model;
+package com.epam.lab.abstractFactory.model;
 
 public class MountainMotorcycle extends Motorcycle {
     @Override

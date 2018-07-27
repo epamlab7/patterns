@@ -1,8 +1,7 @@
-package com.epam.factory;
+package com.epam.lab.abstractFactory.factory;
 
-import com.epam.model.Bicycle;
-import com.epam.model.Car;
-import com.epam.model.Motorcycle;
+import com.epam.lab.abstractFactory.model.Car;
+import com.epam.lab.abstractFactory.model.Motorcycle;
 
 public interface VehicleFactory {
 

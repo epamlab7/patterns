@@ -1,4 +1,4 @@
-package src.com.epam.lab.adapter;
+package com.epam.lab.adapter;
 
 import org.apache.log4j.Logger;
 import src.com.epam.lab.adapter.image.PictureViewer;

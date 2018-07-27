@@ -1,7 +1,7 @@
 package com.epam.lab.factoryMethod;
 
 public class FactoryMethodTest {
-    public static void factoryMethodRun(String[] args) {
+    public static void factoryMethodRun() {
         AutoFactory autoFactory = readFiles("ford");
         Auto auto = autoFactory.createTheAuto();
         auto.readAuto();

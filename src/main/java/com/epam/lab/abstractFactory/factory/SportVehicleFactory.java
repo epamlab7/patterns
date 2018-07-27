@@ -1,6 +1,6 @@
-package com.epam.factory;
+package com.epam.lab.abstractFactory.factory;
 
-import com.epam.model.*;
+import com.epam.lab.abstractFactory.model.*;
 
 public class SportVehicleFactory implements VehicleFactory{
 
