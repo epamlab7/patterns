@@ -1,4 +1,4 @@
-package com.epam.lab7.factoryMethod;
+package com.epam.lab.factoryMethod;
 
 /*Product declares the single interface for all objects that can be produced*/
 
