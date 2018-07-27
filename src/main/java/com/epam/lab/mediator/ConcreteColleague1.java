@@ -11,6 +11,6 @@ public class ConcreteColleague1 extends Colleague {
 
 	@Override
 	public void notify(String message) {
-		LOG.debug("Colleague1 gets message: " + message);
+		LOG.info("Colleague1 gets message: " + message);
 	}
 }
