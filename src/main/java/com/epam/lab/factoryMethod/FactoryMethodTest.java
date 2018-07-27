@@ -1,4 +1,4 @@
-package com.epam.lab7.factoryMethod;
+package com.epam.lab.factoryMethod;
 
 public class FactoryMethodTest {
     public static void factoryMethodRun(String[] args) {
