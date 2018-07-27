@@ -1,0 +1,11 @@
+ADAPTER DESIGN PATTERN
+Allows 2 incompatible interfaces to work together
+Used when the client expects a (target) interface
+The Adapter class allows the use of the available interface and the Target interface
+Any class can work together as long as the Adapter solves the issue that all classes must implement every method defined by the shared interface
+
+Simple example in java:
+InputStreamReader translates a byte stream into a character stream.
+OutputStreamWriter translates a character stream into a byte stream. These classes exemplify the Adapter pattern.
+In particular, they change input/output stream interfaces to the required reader/writer interfaces.
+ 
