@@ -12,5 +12,7 @@ The group of objects that may handle the command must be specified in a dynamic 
 Example:
 In current example we have three classes which extends abstract class VacancyHandler.
 Which has two methods:
-handleRequest - which input message and handle it
-setSuccessor - which make chain of objects
+handleRequest() - which input message and handle it
+setSuccessor() - which make chain of objects
+First we generate message that goes to the chain of objects. Object in the that can handle it print message
+if object cant handle message than it send it to the next successor in the chain.
