@@ -1,0 +1,18 @@
+Intent:
+It avoids attaching the sender of a request to its receiver, giving this way other objects the possibility of handling the request too.
+The objects become parts of a chain and the request is sent from one object to another across the chain until one of the objects will handle it.
+
+Using Chain of Responsibility?
+More than one object can handle a command
+The handler is not known in advance
+The handler should be determined automatically
+It’s wished that the request is addressed to a group of objects without explicitly specifying its receiver
+The group of objects that may handle the command must be specified in a dynamic way
+
+Example:
+In current example we have three classes which extends abstract class VacancyHandler.
+Which has two methods:
+handleRequest() - which input message and handle it
+setSuccessor() - which make chain of objects
+First we generate message that goes to the chain of objects. Object in the that can handle it print message
+if object cant handle message than it send it to the next successor in the chain.

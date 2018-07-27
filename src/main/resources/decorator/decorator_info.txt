@@ -1,0 +1,8 @@
+Decorator pattern allows a user to add new functionality to an existing object without altering its structure. This pattern acts as a wrapper to existing class.
+
+We use inheritance or composition to extend the behavior of an object but this is done at compile time and its applicable to all the instances of the class. We can't add any new functionality or remove any existing behavior at runtime - this is when Decorator pattern comes into picture.
+
+This pattern creates a decorator class which wraps the original class and provides additional functionality keeping class methods signature intact.
+
+Example with cars:
+We have only 1 basic car and we change its assemble method with using decorator around it.

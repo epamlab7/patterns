@@ -1,0 +1,15 @@
+PROTOTYPE DESIGN PATTERN
+(One of Creational Patterns)
+
+INTENT
+Specify the kinds of objects to create using a prototypical instance,
+and create new objects by copying this prototype.
+
+WHEN WOULD WE USE THIS PATTERN?
+- Composition, creation and representation of objects should be decoupled from the system;
+- Classes to be created are specified at runtime;
+- Objects are required that are similar to existing objects;
+- You need to hide the complexity of creating new instance from the client;
+- Creating an object is an expensive operation and it would be more efficient to copy an object.
+
+LOOK EXAMPLE TO KNOW HOW DOES IT WORK IN JAVA?

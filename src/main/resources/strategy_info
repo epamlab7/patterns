@@ -1,0 +1,6 @@
+Strategy : type – behavioral
+- defines a group of algorithms,
+encapsulates them and makes
+them interchangeable.
+Allows you to modify the algorithm
+regardless of the customers who use it.

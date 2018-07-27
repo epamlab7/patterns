@@ -1,0 +1,12 @@
+
+Singleton pattern restricts the instantiation of a class and ensures that only one instance of the class exists.
+The singleton class must provide a global access point to get the instance of the class.
+Singleton pattern concepts:
+ - Private constructor to restrict instantiation of the class from other classes.
+ - Private static variable of the same class that is the only instance of the class.
+ - Public static method that returns the instance of the class, this is the global
+   access point for outer world to get the instance of the singleton class.
+
+Current example:
+It's logger imitation. Using this class instance you can add log messages from any point
+of the program to a single list and write all of them to a file at once when program finishes.
